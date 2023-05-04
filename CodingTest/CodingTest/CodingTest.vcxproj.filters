@@ -198,13 +198,13 @@
     <ClCompile Include="DFSandBFS_1260.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
-    <ClCompile Include="SixDegreeOfKevinBacon_1389.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="FastAdditionAandB_15552.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
     <ClCompile Include="LostBrackets_1541.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="SixDegreeOfKevinBacon_1389.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
