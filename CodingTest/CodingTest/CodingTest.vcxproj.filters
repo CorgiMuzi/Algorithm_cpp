@@ -207,5 +207,8 @@
     <ClCompile Include="SixDegreeOfKevinBacon_1389.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="Sum_8389.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

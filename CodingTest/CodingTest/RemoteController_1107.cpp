@@ -1,51 +1,90 @@
 #include <iostream>
-#include <map>
 #include <string>
+#include <map>
+#include <algorithm>
 
-std::string N;
-std::map<int, bool> brokenButtons;
+#define DEFAULT_CHANNEL 100
 
-int findNumber() {
-	int ret = 0;
+using namespace std;
 
-	std::string upper, lower;
-	for (std::string::size_type i = 0; i < N.size(); ++i) {
-		int num = N[i] - '0';
-		while (brokenButtons[num]) {
-			num--;
-			if (num < 0) num += 10;
+map<int, bool> isBroken;
+
+bool isNonValidNumber(char c) {
+	int num = c - '0';
+	return isBroken[num];
+}
+
+string getLowerBound(string channel) {
+	string::iterator iter = find_if(channel.begin(), channel.end(), isNonValidNumber);
+	while (iter != channel.end()) {
+		while (isNonValidNumber(*iter)) {
+			*iter = *iter - 1;
+			if (*iter < '0') {
+				if (iter == channel.begin()) {
+					channel = channel.substr(1, channel.size()-1);
+				}
+				else {
+					*(iter - 1) -= 1;
+					*iter = '9';
+				}
+			}
 		}
-		lower.push_back(num);
 
-		num = N[i] - '0';
-		while (brokenButtons[num]) {
-			num++;
-			if (num > 9) num -= 10;
-		}
-		upper.push_back(num);
+		cout << "lower_channel: " << channel << "\n";
+		if (channel < "0") break;
+		iter = find_if(channel.begin(), channel.end(), isNonValidNumber);
 	}
 
-	int base = upper.size();
-	int upper_int = std::stoi(upper), lower_int = std::stoi(lower);
+	return channel;
+}
 
-	ret = upper_int - 100 < lower_int - 100 ? upper_int - 100 : lower_int - 100;
-	ret += base;
+string getUpperBound(string channel) {
+	string::iterator iter = find_if(channel.begin(), channel.end(), isNonValidNumber);
+	while (iter != channel.end()) {
+		while (isNonValidNumber(*iter)) {
+			*iter = *iter + 1;
+			if (*iter > '9') {
+				*iter = '0';
+				if (iter == channel.begin()) {
+					channel = '1' + channel;
+				}
+				else {
+					*(iter - 1) += 1;
+				}
+			}
+		}
 
-	return ret;
+		cout << "upper_channel: " << channel << "\n";
+		if (channel > "1000000") break;
+		iter = find_if(channel.begin(), channel.end(), isNonValidNumber);
+	}
+
+	return channel;
 }
 
 int main() {
-	int M;
-	
-	std::cin >> N >> M;
-	for (int i = 0; i < M; ++i) {
-		int broken;
-		std::cin >> broken;
-		brokenButtons[broken] = true;
+	string channel;
+	cin >> channel;
+
+	int numOfBrokens;
+	cin >> numOfBrokens;
+
+	for (int i = 0; i < numOfBrokens; ++i) {
+		int n;
+		cin >> n;
+
+		isBroken[n] = true;
 	}
 
-	int count = 0;
-	count = findNumber();
+	string upper = getUpperBound(channel), lower = getLowerBound(channel);
 	
-	std::cout << count;
+	int upperDiff = stoi(upper) - stoi(channel) + upper.size(), lowerDiff = stoi(channel) - stoi(lower) + lower.size();
+	int defaultDiff = abs(DEFAULT_CHANNEL - stoi(channel));
+
+	if (upperDiff < lowerDiff) {
+		cout << ((upperDiff < defaultDiff) ? upperDiff : defaultDiff);
+	}
+	else {
+		cout << ((lowerDiff < defaultDiff) ? lowerDiff : defaultDiff);
+	}
 }
