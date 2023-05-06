@@ -1,90 +1,39 @@
 #include <iostream>
-#include <string>
 #include <map>
-#include <algorithm>
+#include <string>
 
-#define DEFAULT_CHANNEL 100
+std::map<int, bool> isBroken;
 
-using namespace std;
+bool isValidNum(int arg) {
+	std::string num = std::to_string(arg);
 
-map<int, bool> isBroken;
-
-bool isNonValidNumber(char c) {
-	int num = c - '0';
-	return isBroken[num];
-}
-
-string getLowerBound(string channel) {
-	string::iterator iter = find_if(channel.begin(), channel.end(), isNonValidNumber);
-	while (iter != channel.end()) {
-		while (isNonValidNumber(*iter)) {
-			*iter = *iter - 1;
-			if (*iter < '0') {
-				if (iter == channel.begin()) {
-					channel = channel.substr(1, channel.size()-1);
-				}
-				else {
-					*(iter - 1) -= 1;
-					*iter = '9';
-				}
-			}
-		}
-
-		cout << "lower_channel: " << channel << "\n";
-		if (channel < "0") break;
-		iter = find_if(channel.begin(), channel.end(), isNonValidNumber);
+	for (std::string::size_type i = 0; i < num.size(); ++i) {
+		if (isBroken[num[i] - '0']) return false;
 	}
 
-	return channel;
-}
-
-string getUpperBound(string channel) {
-	string::iterator iter = find_if(channel.begin(), channel.end(), isNonValidNumber);
-	while (iter != channel.end()) {
-		while (isNonValidNumber(*iter)) {
-			*iter = *iter + 1;
-			if (*iter > '9') {
-				*iter = '0';
-				if (iter == channel.begin()) {
-					channel = '1' + channel;
-				}
-				else {
-					*(iter - 1) += 1;
-				}
-			}
-		}
-
-		cout << "upper_channel: " << channel << "\n";
-		if (channel > "1000000") break;
-		iter = find_if(channel.begin(), channel.end(), isNonValidNumber);
-	}
-
-	return channel;
+	return true;
 }
 
 int main() {
-	string channel;
-	cin >> channel;
-
-	int numOfBrokens;
-	cin >> numOfBrokens;
-
-	for (int i = 0; i < numOfBrokens; ++i) {
-		int n;
-		cin >> n;
-
-		isBroken[n] = true;
+	int N, M;
+	std::cin >> N >> M;
+	for (int i = 0; i < M; ++i) {
+		int b;
+		std::cin >> b;
+		isBroken[b] = true;
 	}
 
-	string upper = getUpperBound(channel), lower = getLowerBound(channel);
-	
-	int upperDiff = stoi(upper) - stoi(channel) + upper.size(), lowerDiff = stoi(channel) - stoi(lower) + lower.size();
-	int defaultDiff = abs(DEFAULT_CHANNEL - stoi(channel));
+	int min_countOfPress = abs(N - 100);
+	for (int i = 0; i < 1000000; ++i) {
+		if (isValidNum(i)) {
+			int countOfPress = 0;
+			std::string str = std::to_string(i);
+			countOfPress += str.size();
+			countOfPress += abs(N - i);
+			
+			min_countOfPress = std::min(min_countOfPress, countOfPress);
+		}
+	}
 
-	if (upperDiff < lowerDiff) {
-		cout << ((upperDiff < defaultDiff) ? upperDiff : defaultDiff);
-	}
-	else {
-		cout << ((lowerDiff < defaultDiff) ? lowerDiff : defaultDiff);
-	}
+	std::cout << min_countOfPress;
 }

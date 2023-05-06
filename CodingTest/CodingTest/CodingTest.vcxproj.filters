@@ -192,7 +192,7 @@
     <ClCompile Include="Z_1074.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
-    <ClCompile Include="RemoteController_1107.cpp">
+    <ClCompile Include="RemoteController_1107_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="DFSandBFS_1260.cpp">
@@ -209,6 +209,9 @@
     </ClCompile>
     <ClCompile Include="Sum_8389.cpp">
       <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteController_1107.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
