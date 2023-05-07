@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\Solved\Gahui">
       <UniqueIdentifier>{4b56a514-c8ff-492a-b1be-04a9aa0a502d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Deprecated">
+      <UniqueIdentifier>{dd487498-e24b-4c40-b994-152596855826}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Gahui_A.cpp">
@@ -192,9 +195,6 @@
     <ClCompile Include="Z_1074.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
-    <ClCompile Include="RemoteController_1107_2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="DFSandBFS_1260.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
@@ -211,7 +211,13 @@
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
     <ClCompile Include="RemoteController_1107.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteController_1107_2.cpp">
+      <Filter>소스 파일\Deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberOfFactorial0_1676.cpp">
+      <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
