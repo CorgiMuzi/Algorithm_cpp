@@ -237,5 +237,8 @@
     <ClCompile Include="Coin0_11047.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="ClimbingStairs_2579.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
