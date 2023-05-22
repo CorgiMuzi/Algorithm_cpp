@@ -255,5 +255,8 @@
     <ClCompile Include="Counting_10807.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="SnakeAndLadderGame_16982.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
