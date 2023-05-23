@@ -258,5 +258,8 @@
     <ClCompile Include="SnakeAndLadderGame_16982.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="DSLR_9019.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
