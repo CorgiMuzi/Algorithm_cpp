@@ -264,5 +264,8 @@
     <ClCompile Include="AbsolutValueHeap_11286.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="NumberingAptComplex_2667.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
