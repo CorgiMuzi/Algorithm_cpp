@@ -3,39 +3,40 @@
 using std::cin, std::cout;
 
 int GCD(int arg1, int arg2) {
-	int big = 0, small = 0;
-	if (arg1 >= arg2) {
-		big = arg1;
-		small = arg2;
-	}
-	else {
-		big = arg2;
-		small = arg1;
-	}
+    if (arg1 > arg2) {
+        std::swap(arg1, arg2);
+    }
 
-	while (small != 0) {
-		int temp = small;
-		small = big % small;
-		big = temp; 
-	}
+    while (arg2 != 0) {
+        int temp = arg2;
+        arg2 = arg1 % arg2;
+        arg1 = temp;
+    }
 
-	return big;
+    return arg1;
+}
+
+int LCM(int arg1, int arg2) {
+    return (arg1 * arg2) / GCD(arg1, arg2);
 }
 
 int main() {
-	int T;
-	cin >> T;
+    int T;
+    cin >> T;
 
-	while (T--) {
-		int M, N;
-		cin >> M >> N;
+    while (T--) {
+        int M, N, x, y;
+        cin >> M >> N >> x >> y;
 
-		int x, y;
-		cin >> x >> y;
+        int possible = false;
+        for (int i = x; i <= LCM(M, N); i += M) {
+            if ((i - 1) % N + 1 == y) {
+                possible = true;
+                cout << i << "\n";
+                break;
+            }
+        }
 
-		int gcd = GCD(M, N);
-
-		cout << ((M * N) / gcd) << "\n";
-	}
-	
+        if (!possible) cout << "-1\n";
+    }
 }
