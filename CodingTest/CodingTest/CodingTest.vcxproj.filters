@@ -282,5 +282,8 @@
     <ClCompile Include="CainCalendar_6064.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="KingOfFashionShinHaebin_9375.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
