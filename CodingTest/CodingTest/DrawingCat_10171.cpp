@@ -1,2 +1,2 @@
-#include <bits/stdc++.h>
+#include <cstdio>
 int main() { printf("\\    /\\\n )  ( \')\n(  /  )\n \\(__)|"); }
