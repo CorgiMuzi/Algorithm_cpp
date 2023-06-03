@@ -295,7 +295,7 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Dog_10172.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
