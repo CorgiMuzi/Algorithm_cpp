@@ -291,10 +291,10 @@
     <ClCompile Include="DrawingCat_10171.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
-    <ClCompile Include="BabyShark_16236.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Dog_10172.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="BabyShark_16236.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>

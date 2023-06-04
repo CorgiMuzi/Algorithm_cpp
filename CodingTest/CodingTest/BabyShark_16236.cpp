@@ -5,7 +5,7 @@
 using namespace std;
 
 int spaceSize, elapsedTime = 0, sharkSize = 2, shark_h = 0, shark_w = 0, sharkExp = 0;
-vector<vector<int>> space;
+int space[21][21];
 
 int hDir[4] = { -1, 0, 0, 1 };
 int wDir[4] = { 0, -1, 1, 0 };
@@ -30,10 +30,10 @@ bool searchingPrey() {
 		}
 
 		pair<int, int> cur_node = searchingNodes.front(); // Å½»öÇÏ·Á°í ÇÏ´Â Ä­ À§Ä¡
-		searchingNodes.pop(); 
+		searchingNodes.pop();
 		nodesPerSec--;
 
-		int h = cur_node.first, w = cur_node.second; 
+		int h = cur_node.first, w = cur_node.second;
 		isVisited[h][w] = true;
 
 		for (int i = 0; i < 4; ++i) {
@@ -81,7 +81,6 @@ bool searchingPrey() {
 
 int main() {
 	cin >> spaceSize;
-	space = vector<vector<int>>(spaceSize, vector<int>(spaceSize, 0));
 
 	for (int i = 0; i < spaceSize; ++i) {
 		for (int j = 0; j < spaceSize; ++j) {
