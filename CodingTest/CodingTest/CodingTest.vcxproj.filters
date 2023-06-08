@@ -306,5 +306,8 @@
     <ClCompile Include="PathFinding_11403.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="DrawingStar_2438.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
