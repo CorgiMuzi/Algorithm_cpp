@@ -315,5 +315,8 @@
     <ClCompile Include="2xnTiling2_11727.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="FourSquares_17626.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
