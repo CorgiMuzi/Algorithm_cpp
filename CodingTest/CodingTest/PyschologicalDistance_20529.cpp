@@ -52,6 +52,5 @@ int main() {
 		int ans = MBTIFriends(MBTI);
 
 		cout << ans << '\n';
-		
 	}
 }
