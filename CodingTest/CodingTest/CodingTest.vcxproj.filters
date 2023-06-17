@@ -324,5 +324,8 @@
     <ClCompile Include="OldStudentNeedFriends_21736.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="OvenClock_2525.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
