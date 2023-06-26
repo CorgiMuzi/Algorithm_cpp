@@ -1,39 +1,47 @@
 #include <iostream>
 #include <vector>
-#include <climits>
 
 using namespace std;
 
-int nodeCount = 0;
-vector<vector<pair<int, int>>> tree(1, vector<pair<int, int>>(1, make_pair(0, 0)));
+int nodes = 0, maxDist = 0, endNode = 0;
+vector<vector<pair<int, int>>> edges;
+vector<bool> isVisited;
 
-int findTreeNode(int start, int preNode, int dist, int maxDist) {
-	for (vector<pair<int, int>>::size_type i = 0; i < tree[start].size(); ++i) {
+void findDistance(int beg, int dist) {
+	if (isVisited[beg]) return;
 
+	isVisited[beg] = true;
+
+	if (maxDist < dist) {
+		maxDist = dist;
+		endNode = beg;
+	}
+
+	for (int i = 0; i < edges[beg].size(); ++i) {
+		findDistance(edges[beg][i].first, dist + edges[beg][i].second);
 	}
 }
 
-int calculateDiameter(int start, int preNode, int dist, int maxDist) {
-
-}
 
 int main() {
-	cin >> nodeCount;
-	for (int i = 0; i < nodeCount; ++i) {
-		int curNode = 0;
-		cin >> curNode;
-		int nextNode = 0, dist = 0;
-		vector<pair<int, int>> neighbors;
-		while (cin >> nextNode) {
-			if (nextNode == -1) break;
+	cin >> nodes;
+	isVisited = vector<bool>(nodes + 1, false);
+	edges = vector<vector<pair<int, int>>>(nodes + 1);
+
+	int beg = 0, end = 0, dist = 0;
+	for (int i = 0; i < nodes; ++i) {
+		cin >> beg;
+
+		while (cin >> end) {
+			if (end == -1) break;
 			cin >> dist;
 
-			neighbors.emplace_back(nextNode, dist);
+			edges[beg].push_back(make_pair(end, dist));
 		}
-
-		tree.push_back(neighbors);
 	}
 
-	int treeDiameter = 0;
-	cout << treeDiameter;
+	findDistance(1, 0);
+	isVisited = vector<bool>(nodes + 1, false);
+	findDistance(endNode, 0);
+	cout << maxDist;
 }
