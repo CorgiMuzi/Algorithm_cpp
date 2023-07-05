@@ -366,5 +366,8 @@
     <ClCompile Include="PostfixAnotaion_1918.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="BreakTheWallAndGo_2206.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
