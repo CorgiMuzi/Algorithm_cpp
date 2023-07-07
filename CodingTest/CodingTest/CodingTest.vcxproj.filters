@@ -367,6 +367,9 @@
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
     <ClCompile Include="BreakTheWallAndGo_2206.cpp">
+		<Filter>소스 파일\Solved</Filter>
+	</ClCompile>
+    <ClCompile Include="NAndM_15666.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
