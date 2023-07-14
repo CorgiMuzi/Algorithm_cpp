@@ -390,5 +390,8 @@
     <ClCompile Include="GoodbyeBrownSmog_17144.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="TheLongestBitonicSubsequence_11054.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
