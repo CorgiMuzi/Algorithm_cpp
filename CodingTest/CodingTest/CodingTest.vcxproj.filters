@@ -408,9 +408,6 @@
     <ClCompile Include="Sticker_9465.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
-    <ClCompile Include="Cheese_2638.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="01Tile_1904.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
@@ -418,6 +415,9 @@
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
     <ClCompile Include="NumberOfDigits_2577.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheese_2638.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>

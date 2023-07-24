@@ -1,51 +1,64 @@
 #include <iostream>
 #include <queue>
 
+#define CHEESE 1
+
 using namespace std;
 
+int room[100][100];
+pair<int, int> corners[4];
 int N = 0, M = 0, elapsedTime = 0;
-int room[101][101];
 int rDir[4] = { -1, 1, 0, 0 };
 int cDir[4] = { 0, 0, -1, 1 };
-bool isVisit[101][101];
+bool isCheeseRemaining = true;
 
-void meltingCheese(const vector<pair<int, int>>& start) {
-	if (start.empty()) return;
-	queue<pair<int, int>> outside;
-	for (vector<pair<int, int>>::const_iterator s = start.begin(); s != start.end(); ++s) {
-		outside.push(*s);
+void meltingCheese() {
+	queue<pair<int, int>> air;
+	for (int i = 0; i < 4; ++i) {
+		air.push(corners[i]);
 	}
 
-	vector<pair<int, int>> newOutside;
-	while (!outside.empty()) {
-		int cur_row = outside.front().first, cur_col = outside.front().second;
-		outside.pop();
+	bool isVisit[100][100] = { false };
+	isVisit[0][0] = true;
+	isVisit[N - 1][0] = true;
+	isVisit[0][M - 1] = true;
+	isVisit[N - 1][M - 1] = true;
 
-		if (room[cur_row][cur_col] == 0) isVisit[cur_row][cur_col] = true;
-
+	while (!air.empty()) {
+		int cur_r = air.front().first, cur_c = air.front().second;
+		air.pop();
 
 		for (int dir = 0; dir < 4; ++dir) {
-			int m_row = cur_row + rDir[dir], m_col = cur_col + cDir[dir];
+			int nxt_r = cur_r + rDir[dir];
+			int nxt_c = cur_c + cDir[dir];
 
-			if (m_row < 0 || m_col < 0 || m_row >= N || m_col >= M || isVisit[m_row][m_col]) continue;
-
-			if (room[m_row][m_col] > 0) {
-				room[m_row][m_col]++;
+			if (nxt_r < 0 || nxt_c < 0 || nxt_r >= N || nxt_c >= M || isVisit[nxt_r][nxt_c]) continue;
+			
+			if (room[nxt_r][nxt_c] >= CHEESE) {
+				room[nxt_r][nxt_c]++;
+				continue;
 			}
-			outside.push(make_pair(m_row, m_col));
+			
+			isVisit[nxt_r][nxt_c] = true;
+			air.push(make_pair(nxt_r, nxt_c));
+		}
 
+	}
+
+	isCheeseRemaining = false;
+	for (int r = 0; r < N; ++r) {
+		for (int c = 0; c < M; ++c) {
+			if (room[r][c] >= CHEESE + 2) {
+				room[r][c] = 0;
+			}
+			else if (room[r][c] > 0) {
+				room[r][c] = CHEESE;
+				isCheeseRemaining = true;
+			}
 		}
 	}
 
 	elapsedTime++;
-
-	meltingCheese(newOutside);
-	for (int i = 0; i < N; ++i) {
-		for (int j = 0; j < M; ++j) {
-			cout << room[i][j] << " ";
-		}
-		cout << "\n";
-	}
 }
 
 int main() {
@@ -57,19 +70,14 @@ int main() {
 		}
 	}
 
-	memset(isVisit, 0, sizeof(isVisit));
-	isVisit[0][0] = true;
-	isVisit[N - 1][0] = true;
-	isVisit[0][M - 1] = true;
-	isVisit[N - 1][M - 1] = true;
+	corners[0] = make_pair(0, 0);
+	corners[1] = make_pair(N - 1, 0);
+	corners[2] = make_pair(0, M - 1);
+	corners[3] = make_pair(N - 1, M - 1);
 
-	vector<pair<int, int>> corners;
-	corners.push_back(make_pair(0, 0));
-	corners.push_back(make_pair(N - 1, 0));
-	corners.push_back(make_pair(0, M - 1));
-	corners.push_back(make_pair(N - 1, M - 1));
-
-	meltingCheese(corners);
+	while (isCheeseRemaining) {
+		meltingCheese();
+	}
 
 	cout << elapsedTime;
 }
