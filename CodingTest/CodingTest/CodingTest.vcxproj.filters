@@ -420,5 +420,8 @@
     <ClCompile Include="Cheese_2638.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="CarryingPipe1_17070.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

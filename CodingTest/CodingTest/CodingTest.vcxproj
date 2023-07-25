@@ -228,6 +228,7 @@
     <ClCompile Include="BreakTheWallAndGo_2206.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="CarryingPipe1_17070.cpp" />
     <ClCompile Include="Cheese_2638.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
