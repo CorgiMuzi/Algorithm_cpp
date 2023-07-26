@@ -421,7 +421,13 @@
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
     <ClCompile Include="CarryingPipe1_17070.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="ChickenDelivery_15686.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintN_2741.cpp">
+      <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
