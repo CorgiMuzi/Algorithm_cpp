@@ -1,61 +1,64 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
+
+#define MAX_DIST 101
 
 using namespace std;
 
-int N = 0, M = 0;
-int city[50][50];
-vector<pair<int, int>> chicken;
-vector<pair<int, int>> house;
-vector<vector<int>> houseToChickenDist;
+int city_size = 0, max_shop = 0, chicken_dist = MAX_DIST * 13;
+vector<pair<int, int>> house, shop;
+vector<vector<int>> dist;
 
-int calcDist(const pair<int, int>& p1, const pair<int, int>& p2) {
-	return abs(p1.first - p2.first) + abs(p1.second - p2.second);
-}
-
-void calcChickenDist() {
-	typedef vector<pair<int, int>>::size_type vpii_sz;
-
-	for (vpii_sz i = 0; i < house.size(); ++i) {
-		vector<int> dist(chicken.size());
-		for (vpii_sz j = 0; j < chicken.size(); ++j) {
-			 dist[j] = calcDist(house[i], chicken[j]);
+void calcChickenDist(int open, int last) {
+	if (open == max_shop) {
+		int ret = 0;
+		for (vector<vector<int>>::iterator iter = dist.begin(); iter != dist.end(); ++iter) {
+			ret += *min_element(iter->begin(), iter->end());
 		}
-		houseToChickenDist.push_back(dist);
-	}
-}
-
-void closingChickenHouse(int stack, int cur) {
-	if (stack == M) {
 		
+		chicken_dist = min(ret, chicken_dist);
+		return;
 	}
 
-	for (int i = cur; i < chicken.size(); ++i) {
+	for (vector<vector<int>>::size_type i = last; i < shop.size(); ++i) {
+		for (vector<int>::size_type j = 0; j < house.size(); ++j) {
+			dist[j][i] += MAX_DIST;
+		}
 
+		calcChickenDist(open - 1, i + 1);
+
+		for (vector<int>::size_type j = 0; j < house.size(); ++j) {
+			dist[j][i] -= MAX_DIST;
+		}
 	}
 }
 
 int main() {
-	cin >> N >> M;
-	for (int r = 0; r < N; ++r) {
-		for (int c = 0; c < N; ++c) {
-			cin >> city[r][c];
-			if (city[r][c] == 1) {
+	cin >> city_size >> max_shop;
+
+	for (int r = 0; r < city_size; ++r) {
+		for (int c = 0; c < city_size; ++c) {
+			int value = 0;
+			cin >> value;
+			if (value == 1) {
 				house.push_back(make_pair(r, c));
 			}
-			else if (city[r][c] == 2) {
-				chicken.push_back(make_pair(r, c));
+			else if (value == 2) {
+				shop.push_back(make_pair(r, c));
 			}
 		}
 	}
-	
-	calcChickenDist();
 
-	cout << "------------------\n";
-	for (const auto& elem : chickenDist) {
-		for (const auto& dist : elem) {
-			cout << dist << " ";
+	dist = vector<vector<int>>(house.size(), vector<int>(shop.size()));
+
+	for (vector<vector<int>>::size_type i = 0; i < house.size(); ++i) {
+		for (vector<int>::size_type j = 0; j < shop.size(); ++j) {
+			dist[i][j] = abs(house[i].first - shop[j].first) + abs(house[i].second - shop[j].second);
 		}
-		cout << "\n";
 	}
+
+	calcChickenDist(shop.size(), 0);
+
+	cout << chicken_dist;
 }
