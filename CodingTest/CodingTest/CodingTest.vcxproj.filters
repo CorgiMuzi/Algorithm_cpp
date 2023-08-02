@@ -435,5 +435,8 @@
     <ClCompile Include="Σ_13172.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="FindingIntervalSum_11660.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
