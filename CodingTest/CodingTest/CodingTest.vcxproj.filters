@@ -438,5 +438,8 @@
     <ClCompile Include="FindingIntervalSum_11660.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="FindingParentOfTree_11725.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
