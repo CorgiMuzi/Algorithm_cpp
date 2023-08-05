@@ -441,10 +441,10 @@
     <ClCompile Include="FindingParentOfTree_11725.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
-    <ClCompile Include="ASCIICode_11654.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Floyd_11404.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="ASCIICode_11654.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
