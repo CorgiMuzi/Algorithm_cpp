@@ -418,7 +418,7 @@
       <Filter>소스 파일\Deprecated</Filter>
     </ClCompile>
     <ClCompile Include="AtoB_16953.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
