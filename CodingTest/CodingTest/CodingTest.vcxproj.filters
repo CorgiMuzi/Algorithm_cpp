@@ -423,6 +423,9 @@
     <ClCompile Include="BinarySearchTree_5639.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="TheLongestAscendingSubsequnce_11053.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LCS_9251.cpp">
