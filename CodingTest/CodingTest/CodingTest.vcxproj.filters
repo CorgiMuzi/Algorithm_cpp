@@ -426,6 +426,9 @@
     <ClCompile Include="TheLongestAscendingSubsequnce_11053.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="GoDown_2096.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LCS_9251.cpp">
