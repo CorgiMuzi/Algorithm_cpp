@@ -435,6 +435,9 @@
     <ClCompile Include="NormalKnapsack_12865.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="SquaredMatrix_10830.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LCS_9251.cpp">
