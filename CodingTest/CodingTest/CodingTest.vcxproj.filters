@@ -429,13 +429,16 @@
     <ClCompile Include="GoDown_2096.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
-    <ClCompile Include="CalculatingMinimumCost_11779.cpp">
+    <ClCompile Include="CalculatingMinimumCost2_11779.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
     <ClCompile Include="NormalKnapsack_12865.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
     <ClCompile Include="SquaredMatrix_10830.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="CalculatingMinimumCost_1916.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
