@@ -309,9 +309,6 @@
     <ClCompile Include="Party_1238.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
-    <ClCompile Include="SpecificShortestPath_1504.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="MinAndMax_10818.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
@@ -448,6 +445,9 @@
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
     <ClCompile Include="HideAndSeek2_12851.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecificShortestPath_1504.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
