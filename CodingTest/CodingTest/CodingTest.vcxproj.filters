@@ -471,6 +471,12 @@
     <ClCompile Include="TheSumOfPartialSequence2_1208.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="DividePalindrome_1509.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="StairNumber_1562.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LCS_9251.cpp">
