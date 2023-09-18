@@ -477,6 +477,15 @@
     <ClCompile Include="StairNumber_1562.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="OXQuiz_8958.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="checkIsThisPalindrome_10988.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop_1799.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LCS_9251.cpp">

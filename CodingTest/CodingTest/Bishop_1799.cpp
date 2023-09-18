@@ -1,67 +1,44 @@
-// 시간 초과
-// N^4 라 ㅈㄴ 오래걸림;;
-// 블랙칸과 화이트칸을 구분하여 점검할 것...
-
 #include <iostream>
-
-#define BLOCK 0
-#define BLANK 1
-#define PIECE 2
 
 using namespace std;
 
-int diagBoard[20][20];
+bool board[10][10];
+bool rightTop[20], leftTop[20];
 pair<int, int> origin;
 int boardSize = 0;
 int diagSize = 0;
-
 int answer = 0;
 
-bool isSafeToPlay(int r, int c) {
-	int diagR = origin.first + r + c;
-	int diagC = origin.second + r - c;
-
-	for (int row = 0; row < diagSize; ++row) {
-		if (row == diagR) {
-			for (int col = 0; col < diagSize; ++col) {
-				if (diagBoard[row][col] == PIECE) return false;
-			}
-		}
-		else if (diagBoard[row][diagC] == PIECE) return false;
-	}
-
+bool isSafeToPlay(int ld, int rd) {
+	if (leftTop[ld] || rightTop[rd]) return false;
 	return true;
 }
 
-void playBishop(int r, int c, int numOfBishop) {
-	if (c >= boardSize) {
-		r++;
-		c -= boardSize;
-	}
-
-	if (r >= boardSize) {
+void playBishop(int diag, int numOfBishop) {
+	if (diag >= diagSize) {
 		answer = max(answer, numOfBishop);
-		
 		return;
 	}
 
-	for (int row = r; row < boardSize; ++row) {
-		for (int col = c; col < boardSize; ++col) {
-			// 직교 좌표계에서 대각 좌표계로 변환
-			int diagR = origin.first + row + col;
-			int diagC = origin.second + row - col;
+	bool isBishopPlayed = false;
+	int cellPerDiag = diag < boardSize ? diag + 1 : diagSize - diag;
+	for (int cell = 0; cell < cellPerDiag; ++cell) {
+		int r = (boardSize - 1 <= diag) ? boardSize - 1 - cell : diag - cell;
+		int c = (boardSize - 1 <= diag) ? diag - (boardSize - 1) + cell : cell;;
 
-			// 해당 칸이 원래 비숍을 놓을 수 없는 자리라면
-			if (diagBoard[diagR][diagC] != BLANK) continue;
-				
-			if (isSafeToPlay(row, col)) {
-				// 해당 칸이 비숍을 놓을 수 있는 자리라면			
-				diagBoard[diagR][diagC] = PIECE;
-				playBishop(row, col + 1, numOfBishop + 1);
-				diagBoard[diagR][diagC] = BLANK;
-			}
+		if (!board[r][c]) continue;
+		int diag2 = boardSize - 1 + (r - c);
+		if (isSafeToPlay(diag, diag2)) {
+			isBishopPlayed = true;
+			leftTop[diag] = true;
+			rightTop[diag2] = true;
+			playBishop(diag, numOfBishop + 1);
+			leftTop[diag] = false;
+			rightTop[diag2] = false;
 		}
 	}
+
+	if (!isBishopPlayed) playBishop(diag + 1, numOfBishop);
 }
 
 int main() {
@@ -71,10 +48,10 @@ int main() {
 
 	for (int row = 0; row < boardSize; ++row) {
 		for (int col = 0; col < boardSize; ++col) {
-			cin >> diagBoard[origin.first + row + col][origin.second + row - col];
+			cin >> board[row][col];
 		}
 	}
 
-	playBishop(0, 0, 0);
+	playBishop(0, 0);
 	cout << answer << "\n";
 }
