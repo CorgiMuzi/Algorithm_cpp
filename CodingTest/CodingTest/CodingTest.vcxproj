@@ -183,6 +183,7 @@
     <ClCompile Include="GoDown_2096.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="GroupOfLineSegment_2162.cpp" />
     <ClCompile Include="HideAndSeek2_12851.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
