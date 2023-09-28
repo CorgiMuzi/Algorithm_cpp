@@ -477,8 +477,20 @@
     <ClCompile Include="StairNumber_1562.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
-    <ClCompile Include="GroupOfLineSegment_2162.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="TravelingSalesmanProblem_2098.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop_1799.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckIsThisPalindrome_10988.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="DividePalindrome_1509.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="SumOfTwoArrays_2143.cpp">
+      <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

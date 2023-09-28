@@ -171,7 +171,7 @@
     <ClCompile Include="CalculatingMinimumCost_1916.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="checkIsThisPalindrome_10988.cpp">
+    <ClCompile Include="CheckIsThisPalindrome_10988.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="DividePalindrome_1509.cpp">
@@ -183,7 +183,6 @@
     <ClCompile Include="GoDown_2096.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="GroupOfLineSegment_2162.cpp" />
     <ClCompile Include="HideAndSeek2_12851.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
