@@ -492,6 +492,9 @@
     <ClCompile Include="SumOfTwoArrays_2143.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="DanceDanceRevolution_2342.cpp">
+		<Filter>소스 파일</Filter>
+	</ClCompile>
     <ClCompile Include="LineUp_2252.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
