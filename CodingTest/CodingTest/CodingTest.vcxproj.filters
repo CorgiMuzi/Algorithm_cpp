@@ -492,6 +492,9 @@
     <ClCompile Include="SumOfTwoArrays_2143.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="DanceDanceRevolution_2342.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LCS_9251.cpp">
