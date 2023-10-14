@@ -493,9 +493,15 @@
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
     <ClCompile Include="DanceDanceRevolution_2342.cpp">
-		<Filter>소스 파일</Filter>
-	</ClCompile>
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
     <ClCompile Include="LineUp_2252.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeSolutions_2473.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSegmentGroup_2162.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
