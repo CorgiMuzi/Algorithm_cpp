@@ -1,507 +1,516 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="리소스 파일">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="소스 파일\Solved">
-      <UniqueIdentifier>{68841a2c-f704-4958-854d-cd192344bfb8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Solved\Yonsei X Korea">
-      <UniqueIdentifier>{6313d47b-1ef2-4bd8-998c-ea0a9d2539c1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Solved\Gahui">
-      <UniqueIdentifier>{4b56a514-c8ff-492a-b1be-04a9aa0a502d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Deprecated">
-      <UniqueIdentifier>{dd487498-e24b-4c40-b994-152596855826}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Gahui_A.cpp">
-      <Filter>소스 파일\Solved\Gahui</Filter>
-    </ClCompile>
-    <ClCompile Include="Gahui_B.cpp">
-      <Filter>소스 파일\Solved\Gahui</Filter>
-    </ClCompile>
-    <ClCompile Include="YXK_A.cpp">
-      <Filter>소스 파일\Solved\Yonsei X Korea</Filter>
-    </ClCompile>
-    <ClCompile Include="YXK_B.cpp">
-      <Filter>소스 파일\Solved\Yonsei X Korea</Filter>
-    </ClCompile>
-    <ClCompile Include="2xnTiling.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="babbling.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="cmd_1032.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="CollatzConjecture.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="DFSandBFS.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="DividingNumberCard.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="DoublePriorityQueue.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="DrawStar10_2447.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="factorial_10872.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Factorial2_27433.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Fibonacci5_10870.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="FoodFight.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="FruitSeller.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="GEC_OP_A.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="GEC_OP_B.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="GEC_OP_C.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="GEC_OP_D.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="GEC_OP_I.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="InsertOperator_14888.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="K_SaeJoonNumber_1418.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="KidJungmin_11382.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="MakingHamburger.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="MergeSort1_24060.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="MinimumHeap_1927.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Multiple.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="N_Queens_9663.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="NumberCard2_10816.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="PadovanSequence_9461.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="ParliamentaryElections_1417.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="PokemonMaster_1620.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Remainder_10430.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Set_11723.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="snakeGame.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="StackSequence_1874.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="statistics_2108.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Tile01_1904.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="WeaponofKnights.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Z_1074.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="DFSandBFS_1260.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="FastAdditionAandB_15552.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="LostBrackets_1541.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="SixDegreeOfKevinBacon_1389.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Sum_8389.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="RemoteController_1107.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="RemoteController_1107_2.cpp">
-      <Filter>소스 파일\Deprecated</Filter>
-    </ClCompile>
-    <ClCompile Include="NumberOfFactorial0_1676.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="QuadTree_1992.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="MazeExplorations_2178.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Tomato_7569.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="AC_5430.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="FindingPassword_17219.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Coin0_11047.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="ClimbingStairs_2579.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="VeraAndOutfits_15439.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="RedGreenColorWeakness_10026.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="NtnirP_2742.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="NumberOfWords_1152.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Counting_10807.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="SnakeAndLadderGame_16982.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="DSLR_9019.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="AbsolutValueHeap_11286.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="NumberingAptComplex_2667.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="CharAndString_27866.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="IOIOI_5525.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="SectionSum_11659.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="WordStudying_1157.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="CainCalendar_6064.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="KingOfFashionShinHaebin_9375.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Tetromino_14500.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="DrawingCat_10171.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Dog_10172.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="BabyShark_16236.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="AlarmClock_2884.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="SolvedAC_18110.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="PathFinding_11403.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="DrawingStar_2438.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="APlusB_4_10951.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="2xnTiling2_11727.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="FourSquares_17626.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="PyschologicalDistance_20529.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="OldStudentNeedFriends_21736.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="OvenClock_2525.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="SafariWorld_2420.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="RepresentationOfSet_1717.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Lie_1043.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="RGBDistance_1149.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="ThreeDices_2480.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="TreeDiameter_1167.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Turret_1002.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Party_1238.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="MinAndMax_10818.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="MaxNumber_2562.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Product_1629.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="PostfixAnotaion_1918.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="BreakTheWallAndGo_2206.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="NAndM_15666.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="NAndM_15654.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="TreeTraversal_1991.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="IntegerTriangle_1932.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Laboratory_14502.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="PuttingBallsIn_10810.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="GoodbyeBrownSmog_17144.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="TheLongestBitonicSubsequence_11054.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="StringRepetition_2675.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="SogangGround_14938.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="NandM_15663.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Fibonacci6_11444.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Sticker_9465.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="01Tile_1904.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="VerificationNumber_2475.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="NumberOfDigits_2577.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Cheese_2638.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="CarryingPipe1_17070.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="PrintN_2741.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Scale_2920.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="ChickenDelivery_15686.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Σ_13172.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="FindingIntervalSum_11660.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="FindingParentOfTree_11725.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Floyd_11404.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="ASCIICode_11654.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Remainder_3052.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="DrawingStar11_2448.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="DiameterOfTree_1967.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="LCS_9251_2.cpp">
-      <Filter>소스 파일\Deprecated</Filter>
-    </ClCompile>
-    <ClCompile Include="AtoB_16953.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="BinarySearchTree_5639.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="TheLongestAscendingSubsequnce_11053.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="GoDown_2096.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="CalculatingMinimumCost2_11779.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="NormalKnapsack_12865.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="SquaredMatrix_10830.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="CalculatingMinimumCost_1916.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Alphabet_1987.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="ExplosiveString_9935.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="HideAndSeek2_12851.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="SpecificShortestPath_1504.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="ShortestPath_1753.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Wromhole_1865.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="HideAndSeek3_13549.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="ACMCraft_1005.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="MinimumSpanningTree_1197.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="JewelThief_1202.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="TheSumOfPartialSequence2_1208.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="OXQuiz_8958.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="StairNumber_1562.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="TravelingSalesmanProblem_2098.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="Bishop_1799.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="CheckIsThisPalindrome_10988.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="DividePalindrome_1509.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="SumOfTwoArrays_2143.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="DanceDanceRevolution_2342.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-    <ClCompile Include="App_7579.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="LCS_9251.cpp">
-      <Filter>소스 파일\Solved</Filter>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<Filter Include="소스 파일">
+			<UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+			<Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+		</Filter>
+		<Filter Include="헤더 파일">
+			<UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+			<Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+		</Filter>
+		<Filter Include="리소스 파일">
+			<UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+			<Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+		</Filter>
+		<Filter Include="소스 파일\Solved">
+			<UniqueIdentifier>{68841a2c-f704-4958-854d-cd192344bfb8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="소스 파일\Solved\Yonsei X Korea">
+			<UniqueIdentifier>{6313d47b-1ef2-4bd8-998c-ea0a9d2539c1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="소스 파일\Solved\Gahui">
+			<UniqueIdentifier>{4b56a514-c8ff-492a-b1be-04a9aa0a502d}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="소스 파일\Deprecated">
+			<UniqueIdentifier>{dd487498-e24b-4c40-b994-152596855826}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="Gahui_A.cpp">
+			<Filter>소스 파일\Solved\Gahui</Filter>
+		</ClCompile>
+		<ClCompile Include="Gahui_B.cpp">
+			<Filter>소스 파일\Solved\Gahui</Filter>
+		</ClCompile>
+		<ClCompile Include="YXK_A.cpp">
+			<Filter>소스 파일\Solved\Yonsei X Korea</Filter>
+		</ClCompile>
+		<ClCompile Include="YXK_B.cpp">
+			<Filter>소스 파일\Solved\Yonsei X Korea</Filter>
+		</ClCompile>
+		<ClCompile Include="2xnTiling.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="babbling.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="cmd_1032.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="CollatzConjecture.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="DFSandBFS.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="DividingNumberCard.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="DoublePriorityQueue.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="DrawStar10_2447.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="factorial_10872.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Factorial2_27433.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Fibonacci5_10870.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="FoodFight.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="FruitSeller.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="GEC_OP_A.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="GEC_OP_B.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="GEC_OP_C.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="GEC_OP_D.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="GEC_OP_I.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="InsertOperator_14888.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="K_SaeJoonNumber_1418.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="KidJungmin_11382.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="MakingHamburger.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="MergeSort1_24060.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="MinimumHeap_1927.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Multiple.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="N_Queens_9663.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="NumberCard2_10816.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="PadovanSequence_9461.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="ParliamentaryElections_1417.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="PokemonMaster_1620.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Remainder_10430.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Set_11723.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="snakeGame.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="StackSequence_1874.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="statistics_2108.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Tile01_1904.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="WeaponofKnights.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Z_1074.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="DFSandBFS_1260.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="FastAdditionAandB_15552.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="LostBrackets_1541.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="SixDegreeOfKevinBacon_1389.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Sum_8389.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="RemoteController_1107.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="RemoteController_1107_2.cpp">
+			<Filter>소스 파일\Deprecated</Filter>
+		</ClCompile>
+		<ClCompile Include="NumberOfFactorial0_1676.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="QuadTree_1992.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="MazeExplorations_2178.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Tomato_7569.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="AC_5430.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="FindingPassword_17219.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Coin0_11047.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="ClimbingStairs_2579.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="VeraAndOutfits_15439.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="RedGreenColorWeakness_10026.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="NtnirP_2742.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="NumberOfWords_1152.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Counting_10807.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="SnakeAndLadderGame_16982.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="DSLR_9019.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="AbsolutValueHeap_11286.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="NumberingAptComplex_2667.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="CharAndString_27866.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="IOIOI_5525.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="SectionSum_11659.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="WordStudying_1157.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="CainCalendar_6064.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="KingOfFashionShinHaebin_9375.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Tetromino_14500.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="DrawingCat_10171.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Dog_10172.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="BabyShark_16236.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="AlarmClock_2884.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="SolvedAC_18110.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="PathFinding_11403.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="DrawingStar_2438.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="APlusB_4_10951.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="2xnTiling2_11727.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="FourSquares_17626.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="PyschologicalDistance_20529.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="OldStudentNeedFriends_21736.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="OvenClock_2525.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="SafariWorld_2420.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="RepresentationOfSet_1717.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Lie_1043.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="RGBDistance_1149.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="ThreeDices_2480.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="TreeDiameter_1167.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Turret_1002.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Party_1238.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="MinAndMax_10818.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="MaxNumber_2562.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Product_1629.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="PostfixAnotaion_1918.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="BreakTheWallAndGo_2206.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="NAndM_15666.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="NAndM_15654.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="TreeTraversal_1991.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="IntegerTriangle_1932.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Laboratory_14502.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="PuttingBallsIn_10810.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="GoodbyeBrownSmog_17144.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="TheLongestBitonicSubsequence_11054.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="StringRepetition_2675.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="SogangGround_14938.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="NandM_15663.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Fibonacci6_11444.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Sticker_9465.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="01Tile_1904.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="VerificationNumber_2475.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="NumberOfDigits_2577.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Cheese_2638.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="CarryingPipe1_17070.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="PrintN_2741.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Scale_2920.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="ChickenDelivery_15686.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Σ_13172.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="FindingIntervalSum_11660.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="FindingParentOfTree_11725.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Floyd_11404.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="ASCIICode_11654.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Remainder_3052.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="DrawingStar11_2448.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="DiameterOfTree_1967.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="LCS_9251_2.cpp">
+			<Filter>소스 파일\Deprecated</Filter>
+		</ClCompile>
+		<ClCompile Include="AtoB_16953.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="BinarySearchTree_5639.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="TheLongestAscendingSubsequnce_11053.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="GoDown_2096.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="CalculatingMinimumCost2_11779.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="NormalKnapsack_12865.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="SquaredMatrix_10830.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="CalculatingMinimumCost_1916.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Alphabet_1987.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="ExplosiveString_9935.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="HideAndSeek2_12851.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="SpecificShortestPath_1504.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="ShortestPath_1753.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Wromhole_1865.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="HideAndSeek3_13549.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="ACMCraft_1005.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="MinimumSpanningTree_1197.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="JewelThief_1202.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="TheSumOfPartialSequence2_1208.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="OXQuiz_8958.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="StairNumber_1562.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="TravelingSalesmanProblem_2098.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="Bishop_1799.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="CheckIsThisPalindrome_10988.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="DividePalindrome_1509.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="SumOfTwoArrays_2143.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="DanceDanceRevolution_2342.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="App_7579.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="LineUp_2252.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="ThreeSolutions_2473.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</ClCompile>
+		<ClCompile Include="LineSegmentGroup_2162.cpp">
+			<Filter>소스 파일</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="LCS_9251.cpp">
+			<Filter>소스 파일\Solved</Filter>
+		</None>
+	</ItemGroup>
 </Project>
