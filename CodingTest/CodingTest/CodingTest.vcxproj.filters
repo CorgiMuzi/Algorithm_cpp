@@ -507,6 +507,9 @@
     <ClCompile Include="LineSegmentGroup_2162.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="ExtremelyRich2_1271.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LCS_9251.cpp">
