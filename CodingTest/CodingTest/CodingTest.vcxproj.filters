@@ -511,9 +511,12 @@
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
     <ClCompile Include="PlanetTunnel_2887.cpp">
-		<Filter>소스 파일\Solved</Filter>
-	</ClCompile>
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
     <ClCompile Include="MusicProgram_2623.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="TermProject_9466.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
