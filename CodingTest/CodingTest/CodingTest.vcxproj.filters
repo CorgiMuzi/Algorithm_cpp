@@ -519,6 +519,12 @@
     <ClCompile Include="TermProject_9466.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="CountingNumberOf1_9527.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JerryAndTom_16430.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LCS_9251.cpp">
