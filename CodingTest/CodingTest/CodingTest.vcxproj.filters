@@ -528,6 +528,9 @@
     <ClCompile Include="CountingNumberOf1_9527.cpp">
       <Filter>소스 파일\NeedToRemind</Filter>
     </ClCompile>
+    <ClCompile Include="MatrixMultiplicationOrder_11049.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LCS_9251.cpp">
