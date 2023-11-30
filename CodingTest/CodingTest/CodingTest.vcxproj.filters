@@ -531,6 +531,9 @@
     <ClCompile Include="MatrixMultiplicationOrder_11049.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="TheLongestIncreasingSubsequence2_12015.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="LCS_9251.cpp">
