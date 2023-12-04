@@ -140,7 +140,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EscapeMarble2_13460.cpp" />
     <ClCompile Include="Solved\01Tile_1904.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -12995,6 +12994,7 @@
     <Content Include="x64\Debug\vc143.pdb" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Solved\EscapeMarble2_13460.cpp" />
     <None Include="Solved\LCS_9251.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
