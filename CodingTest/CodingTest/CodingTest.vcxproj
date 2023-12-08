@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Solved\01Tile_1904.cpp">
+    <None Include="Solved\01Tile_1904.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -214,8 +214,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\2048Easy_12100.cpp">
+    </None>
+    <None Include="Solved\2048Easy_12100.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -289,8 +289,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\2xnTiling.cpp">
+    </None>
+    <None Include="Solved\2xnTiling.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -364,8 +364,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\2xnTiling2_11727.cpp">
+    </None>
+    <None Include="Solved\2xnTiling2_11727.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -439,8 +439,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\AbsolutValueHeap_11286.cpp">
+    </None>
+    <None Include="Solved\AbsolutValueHeap_11286.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -514,8 +514,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\ACMCraft_1005.cpp">
+    </None>
+    <None Include="Solved\ACMCraft_1005.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -589,8 +589,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\AC_5430.cpp">
+    </None>
+    <None Include="Solved\AC_5430.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -664,8 +664,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\AlarmClock_2884.cpp">
+    </None>
+    <None Include="Solved\AlarmClock_2884.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -739,8 +739,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\Alphabet_1987.cpp">
+    </None>
+    <None Include="Solved\Alphabet_1987.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -814,8 +814,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\APlusB_4_10951.cpp">
+    </None>
+    <None Include="Solved\APlusB_4_10951.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -889,8 +889,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\App_7579.cpp">
+    </None>
+    <None Include="Solved\App_7579.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -964,8 +964,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\ASCIICode_11654.cpp">
+    </None>
+    <None Include="Solved\ASCIICode_11654.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1039,8 +1039,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\AtoB_16953.cpp">
+    </None>
+    <None Include="Solved\AtoB_16953.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1114,8 +1114,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\babbling.cpp">
+    </None>
+    <None Include="Solved\babbling.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1189,8 +1189,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\BabyShark_16236.cpp">
+    </None>
+    <None Include="Solved\BabyShark_16236.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1264,8 +1264,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\BinarySearchTree_5639.cpp">
+    </None>
+    <None Include="Solved\BinarySearchTree_5639.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1339,8 +1339,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\Bishop_1799.cpp">
+    </None>
+    <None Include="Solved\Bishop_1799.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1414,8 +1414,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\BreakTheWallAndGo_2206.cpp">
+    </None>
+    <None Include="Solved\BreakTheWallAndGo_2206.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1489,8 +1489,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\CainCalendar_6064.cpp">
+    </None>
+    <None Include="Solved\CainCalendar_6064.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1564,8 +1564,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\CalculatingMinimumCost2_11779.cpp">
+    </None>
+    <None Include="Solved\CalculatingMinimumCost2_11779.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1639,8 +1639,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\CalculatingMinimumCost_1916.cpp">
+    </None>
+    <None Include="Solved\CalculatingMinimumCost_1916.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1714,8 +1714,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\CarryingPipe1_17070.cpp">
+    </None>
+    <None Include="Solved\CarryingPipe1_17070.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1789,8 +1789,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\CharAndString_27866.cpp">
+    </None>
+    <None Include="Solved\CharAndString_27866.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1864,8 +1864,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\CheckIsThisPalindrome_10988.cpp">
+    </None>
+    <None Include="Solved\CheckIsThisPalindrome_10988.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -1939,8 +1939,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\Cheese_2638.cpp">
+    </None>
+    <None Include="Solved\Cheese_2638.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2014,8 +2014,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\ChickenDelivery_15686.cpp">
+    </None>
+    <None Include="Solved\ChickenDelivery_15686.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2089,8 +2089,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\ClimbingStairs_2579.cpp">
+    </None>
+    <None Include="Solved\ClimbingStairs_2579.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2164,8 +2164,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\cmd_1032.cpp">
+    </None>
+    <None Include="Solved\cmd_1032.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2239,8 +2239,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\Coin0_11047.cpp">
+    </None>
+    <None Include="Solved\Coin0_11047.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2314,8 +2314,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\CollatzConjecture.cpp">
+    </None>
+    <None Include="Solved\CollatzConjecture.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2389,8 +2389,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\CountingNumberOf1_9527.cpp">
+    </None>
+    <None Include="Solved\CountingNumberOf1_9527.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2464,8 +2464,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\Counting_10807.cpp">
+    </None>
+    <None Include="Solved\Counting_10807.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2539,8 +2539,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\DanceDanceRevolution_2342.cpp">
+    </None>
+    <None Include="Solved\DanceDanceRevolution_2342.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2614,8 +2614,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\DFSandBFS.cpp">
+    </None>
+    <None Include="Solved\DFSandBFS.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2689,8 +2689,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\DFSandBFS_1260.cpp">
+    </None>
+    <None Include="Solved\DFSandBFS_1260.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2764,8 +2764,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\DiameterOfTree_1967.cpp">
+    </None>
+    <None Include="Solved\DiameterOfTree_1967.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2839,8 +2839,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\DividePalindrome_1509.cpp">
+    </None>
+    <None Include="Solved\DividePalindrome_1509.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2914,8 +2914,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\DividingNumberCard.cpp">
+    </None>
+    <None Include="Solved\DividingNumberCard.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -2989,8 +2989,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\Dog_10172.cpp">
+    </None>
+    <None Include="Solved\Dog_10172.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3064,8 +3064,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\DoublePriorityQueue.cpp">
+    </None>
+    <None Include="Solved\DoublePriorityQueue.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3139,8 +3139,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\DrawingCat_10171.cpp">
+    </None>
+    <None Include="Solved\DrawingCat_10171.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3214,8 +3214,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\DrawingStar11_2448.cpp">
+    </None>
+    <None Include="Solved\DrawingStar11_2448.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3289,8 +3289,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\DrawingStar_2438.cpp">
+    </None>
+    <None Include="Solved\DrawingStar_2438.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3364,8 +3364,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\DrawStar10_2447.cpp">
+    </None>
+    <None Include="Solved\DrawStar10_2447.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3439,8 +3439,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\DSLR_9019.cpp">
+    </None>
+    <None Include="Solved\DSLR_9019.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3514,8 +3514,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\ExplosiveString_9935.cpp">
+    </None>
+    <None Include="Solved\ExplosiveString_9935.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3589,8 +3589,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\ExtremelyRich2_1271.cpp">
+    </None>
+    <None Include="Solved\ExtremelyRich2_1271.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3664,8 +3664,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\Factorial2_27433.cpp">
+    </None>
+    <None Include="Solved\Factorial2_27433.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3739,8 +3739,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\factorial_10872.cpp">
+    </None>
+    <None Include="Solved\factorial_10872.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3814,8 +3814,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\FastAdditionAandB_15552.cpp">
+    </None>
+    <None Include="Solved\FastAdditionAandB_15552.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3889,8 +3889,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\Fibonacci5_10870.cpp">
+    </None>
+    <None Include="Solved\Fibonacci5_10870.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -3964,8 +3964,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\Fibonacci6_11444.cpp">
+    </None>
+    <None Include="Solved\Fibonacci6_11444.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -4039,8 +4039,8 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="Solved\FindingIntervalSum_11660.cpp">
+    </None>
+    <None Include="Solved\FindingIntervalSum_11660.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -4114,7 +4114,7 @@
       <SDLCheck>false</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
+    </None>
     <ClCompile Include="Solved\FindingParentOfTree_11725.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -13039,6 +13039,7 @@
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <None Include="Solved\Skyscraper_1027.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="x64\Debug\2048Easy_12100.obj" />
