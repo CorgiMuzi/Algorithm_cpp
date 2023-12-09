@@ -13039,6 +13039,7 @@
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <None Include="Solved\PiedPiper_16724.cpp" />
     <None Include="Solved\Skyscraper_1027.cpp" />
   </ItemGroup>
   <ItemGroup>
