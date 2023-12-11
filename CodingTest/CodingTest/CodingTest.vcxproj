@@ -12440,6 +12440,7 @@
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <None Include="Solved\WalkThroughWalls_16946.cpp" />
     <ClCompile Include="Solved\WeaponofKnights.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
