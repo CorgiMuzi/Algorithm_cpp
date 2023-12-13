@@ -6216,6 +6216,7 @@
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <None Include="Solved\CardGame_16566.cpp" />
+    <None Include="Solved\FishingKing_17143.cpp" />
     <None Include="Solved\LightsOff_14939.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
