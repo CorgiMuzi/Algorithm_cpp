@@ -2540,6 +2540,7 @@
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
+    <None Include="Solved\CrossedLineSegment2_17387.cpp" />
     <None Include="Solved\DanceDanceRevolution_2342.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
