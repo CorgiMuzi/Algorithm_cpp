@@ -1490,6 +1490,7 @@
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
+    <None Include="Solved\BulliesOnHalloween_20303.cpp" />
     <None Include="Solved\CainCalendar_6064.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -4116,6 +4117,7 @@
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
+    <None Include="Solved\CycleGame_20040.cpp" />
     <ClCompile Include="Solved\FindingParentOfTree_11725.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
