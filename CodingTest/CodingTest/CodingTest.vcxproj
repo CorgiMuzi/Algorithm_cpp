@@ -2917,6 +2917,7 @@
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
+    <None Include="Solved\DividingGame_27172.cpp" />
     <None Include="Solved\DividingNumberCard.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
