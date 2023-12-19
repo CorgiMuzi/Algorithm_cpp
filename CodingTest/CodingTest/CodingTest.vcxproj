@@ -9745,6 +9745,7 @@
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <None Include="Solved\RaiderChoragi_1006.cpp" />
     <None Include="Solved\RGBDistance2_17404.cpp" />
     <ClCompile Include="Solved\RGBDistance_1149.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
