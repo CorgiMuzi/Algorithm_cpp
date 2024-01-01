@@ -1415,6 +1415,7 @@
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
+    <None Include="Solved\BookPage_1019.cpp" />
     <None Include="Solved\BreakTheWallAndGo_2206.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
