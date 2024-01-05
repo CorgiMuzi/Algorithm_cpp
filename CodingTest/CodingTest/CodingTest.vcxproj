@@ -2844,6 +2844,7 @@
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
+    <None Include="Solved\DigitalCounter_1020.cpp" />
     <None Include="Solved\DividePalindrome_1509.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -4121,7 +4122,6 @@
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
     <None Include="Solved\CycleGame_20040.cpp" />
-    <ClCompile Include="DigitalCounter_1020.cpp" />
     <ClCompile Include="Solved\FindingParentOfTree_11725.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
