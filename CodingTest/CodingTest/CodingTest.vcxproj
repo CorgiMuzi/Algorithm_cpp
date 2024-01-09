@@ -4122,7 +4122,7 @@
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
     <None Include="Solved\CycleGame_20040.cpp" />
-    <ClCompile Include="BracketString_1023.cpp" />
+    <None Include="BracketString_1023.cpp" />
     <ClCompile Include="Solved\FindingParentOfTree_11725.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -12451,6 +12451,7 @@
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <None Include="Solved\SequenceArrangement_1015.cpp" />
     <None Include="Solved\SquareNoNoNumber_1016.cpp" />
     <None Include="Solved\WalkThroughWalls_16946.cpp" />
     <ClCompile Include="Solved\WeaponofKnights.cpp">
