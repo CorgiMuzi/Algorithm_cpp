@@ -25,9 +25,9 @@ int solution(vector<int> arrayA, vector<int> arrayB) {
 	return answer;
 }
 
-// ÃÖ´ë °ø¾à¼ö ±¸ÇÏ±â
+// ìµœëŒ€ ê³µì•½ìˆ˜ êµ¬í•˜ê¸°
 int gcd(int a, int b) {
-	// À¯Å¬¸®µå È£Á¦¹ı
+	// ìœ í´ë¦¬ë“œ í˜¸ì œë²•
 	int dividend = a;
 	int divisor = b;
 	int r = dividend % divisor;
@@ -42,7 +42,7 @@ int gcd(int a, int b) {
 
 int condCase(vector<int> array1, vector<int> array2) {
 	int cDivisor = array1[0];	
-	if (array1.size() > 1) {	// array1ÀÇ Å©±â°¡ 2°³ ÀÌ»óÀÏ °æ¿ì ÃÖ´ë°ø¾à¼ö ±¸ÇÏ±â
+	if (array1.size() > 1) {	// array1ì˜ í¬ê¸°ê°€ 2ê°œ ì´ìƒì¼ ê²½ìš° ìµœëŒ€ê³µì•½ìˆ˜ êµ¬í•˜ê¸°
 		cDivisor = gcd(array1[0], array1[1]);
 
 		for (int i = 2; i < array1.size(); i++) {
@@ -51,7 +51,7 @@ int condCase(vector<int> array1, vector<int> array2) {
 	}
 	
 
-	// array2 ÀÇ ¸ğµç ¿ä¼Ò¸¦ ³ª´­¼ö ¾ø´ÂÁö Æò°¡
+	// array2 ì˜ ëª¨ë“  ìš”ì†Œë¥¼ ë‚˜ëˆŒìˆ˜ ì—†ëŠ”ì§€ í‰ê°€
 	for (int i : array2) {
 		if (i % cDivisor == 0)
 			return 0;

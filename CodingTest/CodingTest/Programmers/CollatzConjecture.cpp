@@ -10,7 +10,7 @@ vector<double> integration(vector<int>, vector<vector<int>>);
 
 int main() {
 	int k = 5;
-	vector<vector<int>> ranges = { {0, 0}, {0, -1}, {2, -3}, {3, -3} };
+	vector<vector<int>> ranges = { { 0, 0 }, { 0, -1 }, { 2, -3 }, { 3, -3 } };
 
 	vector<double> answer = solution(k, ranges);
 
@@ -32,16 +32,16 @@ vector<double> solution(int k, vector<vector<int>> ranges) {
 	return answer;
 }
 
-// ¿ì¹Ú¼ö¿­ °è»ê
+// ìš°ë°•ìˆ˜ì—´ ê³„ì‚°
 vector<int> calcSequence(int k) {
 	vector<int> sequence;
 	sequence.push_back(k);
 
 	while (k > 1) {
 		/*
-			1 - 1. ÀÔ·ÂµÈ ¼ö°¡ Â¦¼ö¶ó¸é 2·Î ³ª´¯´Ï´Ù.
-			1 - 2. ÀÔ·ÂµÈ ¼ö°¡ È¦¼ö¶ó¸é 3À» °öÇÏ°í 1À» ´õÇÕ´Ï´Ù.
-			2.°á°ú·Î ³ª¿Â ¼ö°¡ 1º¸´Ù Å©´Ù¸é 1¹ø ÀÛ¾÷À» ¹İº¹ÇÕ´Ï´Ù.
+			1 - 1. ì…ë ¥ëœ ìˆ˜ê°€ ì§ìˆ˜ë¼ë©´ 2ë¡œ ë‚˜ëˆ•ë‹ˆë‹¤.
+			1 - 2. ì…ë ¥ëœ ìˆ˜ê°€ í™€ìˆ˜ë¼ë©´ 3ì„ ê³±í•˜ê³  1ì„ ë”í•©ë‹ˆë‹¤.
+			2.ê²°ê³¼ë¡œ ë‚˜ì˜¨ ìˆ˜ê°€ 1ë³´ë‹¤ í¬ë‹¤ë©´ 1ë²ˆ ì‘ì—…ì„ ë°˜ë³µí•©ë‹ˆë‹¤.
 		*/
 		k = k % 2 == 0 ? k / 2 : k * 3 + 1;
 		sequence.push_back(k);
@@ -50,13 +50,13 @@ vector<int> calcSequence(int k) {
 	return sequence;
 }
 
-// Á¤ÀûºĞ °è»ê
+// ì •ì ë¶„ ê³„ì‚°
 vector<double> integration(vector<int> sequence, vector<vector<int>> ranges) {
 	vector<double> areas;
 	for (vector<int> range : ranges) {
 		// range = x_min ~ x_max
 		int x_min = range[0];
-		int x_max = (sequence.size()-1)+range[1];
+		int x_max = (sequence.size() - 1) + range[1];
 		double area = 0;
 
 		if (x_min >= sequence.size() || x_max < x_min) {
