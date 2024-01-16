@@ -590,6 +590,7 @@
       <LinkCompiled>true</LinkCompiled>
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <None Include="BOJ\1049_GuitarStrings.cpp" />
     <None Include="NotMyCode\9251_LCS.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
@@ -12234,34 +12235,6 @@
     </ClCompile>
     <None Include="BOJ\16724_PiedPiper.cpp" />
     <None Include="BOJ\1027_Skyscraper.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="x64\Debug\2048Easy_12100.obj" />
-    <Content Include="x64\Debug\2048easy_12100.obj.enc" />
-    <Content Include="x64\Debug\App_7579.obj" />
-    <Content Include="x64\Debug\Bishop_1799.obj" />
-    <Content Include="x64\Debug\checkIsThisPalindrome_10988.obj" />
-    <Content Include="x64\Debug\CodingTest.Build.CppClean.log" />
-    <Content Include="x64\Debug\CodingTest.exe.recipe" />
-    <Content Include="x64\Debug\CodingTest.ilk" />
-    <Content Include="x64\Debug\CodingTest.log" />
-    <Content Include="x64\Debug\CodingTest.tlog\CL.command.1.tlog" />
-    <Content Include="x64\Debug\CodingTest.tlog\CodingTest.lastbuildstate" />
-    <Content Include="x64\Debug\CodingTest.tlog\link.command.1.tlog" />
-    <Content Include="x64\Debug\CodingTest.vcxproj.FileListAbsolute.txt" />
-    <Content Include="x64\Debug\CountingNumberOf1_9527.obj" />
-    <Content Include="x64\Debug\DanceDanceRevolution_2342.obj" />
-    <Content Include="x64\Debug\ExtremelyRich2_1271.obj" />
-    <Content Include="x64\Debug\FileName.obj" />
-    <Content Include="x64\Debug\MainUnivWalk_12850.obj" />
-    <Content Include="x64\Debug\MatrixMultiplicationOrder_11049.obj" />
-    <Content Include="x64\Debug\PlanetTunnel_2887.obj" />
-    <Content Include="x64\Debug\SumOfTwoArrays_2143.obj" />
-    <Content Include="x64\Debug\TermProject_9466.obj" />
-    <Content Include="x64\Debug\TheLongestIncreasingSubsequence2_12015.obj" />
-    <Content Include="x64\Debug\TravelingSalesmanProblem_2098.obj" />
-    <Content Include="x64\Debug\vc143.idb" />
-    <Content Include="x64\Debug\vc143.pdb" />
   </ItemGroup>
   <ItemGroup>
     <None Include="BOJ\13460_EscapeMarble2.cpp" />
