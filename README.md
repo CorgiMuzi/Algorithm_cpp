@@ -1,4 +1,4 @@
-# History of learning algorithm with coding test
+# History of learning algorithm for the coding test
 일일 1문제 목표<br>
 
 Directory
