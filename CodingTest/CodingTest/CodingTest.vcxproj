@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="1135_ReportTheNews.cpp" />
     <ClCompile Include="Programmers\FoodFight.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -591,6 +592,7 @@
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <None Include="BOJ\1049_GuitarStrings.cpp" />
+    <None Include="BOJ\1052_WaterBottle.cpp" />
     <None Include="NotMyCode\9251_LCS.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </None>
