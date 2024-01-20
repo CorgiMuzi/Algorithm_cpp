@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="1135_ReportTheNews.cpp" />
+    <ClCompile Include="1064_Parallelogram.cpp" />
     <ClCompile Include="Programmers\FoodFight.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
