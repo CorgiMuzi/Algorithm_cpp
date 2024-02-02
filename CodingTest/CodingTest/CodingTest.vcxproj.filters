@@ -550,6 +550,9 @@
     <ClCompile Include="25192_FriendlyGomGom.cpp">
       <Filter>BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="20920_MemorizingEnglishWordsIsHard.cpp">
+      <Filter>BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="BOJ">
