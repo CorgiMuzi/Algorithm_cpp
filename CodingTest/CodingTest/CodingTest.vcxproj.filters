@@ -547,6 +547,9 @@
     <ClCompile Include="27866_CharAndString.cpp">
       <Filter>BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="25192_FriendlyGomGom.cpp">
+      <Filter>BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="BOJ">
