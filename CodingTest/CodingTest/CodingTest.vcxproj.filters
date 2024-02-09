@@ -553,6 +553,10 @@
     <ClCompile Include="20920_MemorizingEnglishWordsIsHard.cpp">
       <Filter>BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="2580_Sudoku.cpp" />
+    <ClCompile Include="1233_Dice.cpp">
+      <Filter>BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="BOJ">
