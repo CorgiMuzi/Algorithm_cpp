@@ -557,6 +557,7 @@
     <ClCompile Include="1233_Dice.cpp">
       <Filter>BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="1302_BestSeller.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="BOJ">
