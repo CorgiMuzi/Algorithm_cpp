@@ -560,7 +560,9 @@
     <ClCompile Include="1302_BestSeller.cpp">
       <Filter>BOJ</Filter>
     </ClCompile>
-    <ClCompile Include="1235_StudentNumber.cpp" />
+    <ClCompile Include="1235_StudentNumber.cpp">
+      <Filter>BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="BOJ">

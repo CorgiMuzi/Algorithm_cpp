@@ -24,7 +24,7 @@ int main() {
 		}
 
 		for (int i = 0; i < N; ++i) {
-			if (find(&Numbers[len][0], &Numbers[len][N], Numbers[len][i]) != (&Numbers[len][N])) {
+			if (find(&Numbers[len][i + 1], &Numbers[len][N], Numbers[len][i]) != &Numbers[len][N]) {
 				answer = false;
 				break;
 			}
@@ -33,5 +33,6 @@ int main() {
 		if (answer) break;
 	}
 
+	if (len > MaxLen) len = MaxLen;
 	cout << len;
 }
