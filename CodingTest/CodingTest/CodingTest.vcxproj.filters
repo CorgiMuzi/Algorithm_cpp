@@ -563,6 +563,9 @@
     <ClCompile Include="1235_StudentNumber.cpp">
       <Filter>BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="1244_TurnSwitchOnOff.cpp">
+      <Filter>BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="BOJ">
