@@ -553,6 +553,9 @@
     <ClCompile Include="20920_MemorizingEnglishWordsIsHard.cpp">
       <Filter>BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="1173_Training.cpp">
+      <Filter>BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="BOJ">
