@@ -554,6 +554,19 @@
       <Filter>BOJ</Filter>
     </ClCompile>
     <ClCompile Include="1173_Training.cpp">
+		<Filter>BOJ</Filter>
+	</ClCompile>
+    <ClCompile Include="2580_Sudoku.cpp" />
+    <ClCompile Include="1233_Dice.cpp">
+      <Filter>BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1302_BestSeller.cpp">
+      <Filter>BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1235_StudentNumber.cpp">
+      <Filter>BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="1244_TurnSwitchOnOff.cpp">
       <Filter>BOJ</Filter>
     </ClCompile>
   </ItemGroup>
