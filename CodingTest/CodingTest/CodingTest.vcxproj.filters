@@ -572,6 +572,10 @@
     <ClCompile Include="1246_OnlineSales.cpp">
       <Filter>BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="1106_Hotel.cpp" />
+    <ClCompile Include="1105_Eight.cpp">
+      <Filter>BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="BOJ">
