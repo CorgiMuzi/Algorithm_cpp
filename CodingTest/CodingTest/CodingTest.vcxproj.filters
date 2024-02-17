@@ -576,6 +576,9 @@
     <ClCompile Include="1105_Eight.cpp">
       <Filter>BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="1252_BinarySum.cpp">
+      <Filter>BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="BOJ">
