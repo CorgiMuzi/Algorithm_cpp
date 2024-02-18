@@ -579,6 +579,9 @@
     <ClCompile Include="1252_BinarySum.cpp">
       <Filter>BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="1124_UnderPrime.cpp">
+      <Filter>BOJ</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="BOJ">
