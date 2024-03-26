@@ -701,6 +701,7 @@
     <ClCompile Include="9935_ExplosiveString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="NewsClustering.cpp" />
     <ClCompile Include="Programmers\FoodFight.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

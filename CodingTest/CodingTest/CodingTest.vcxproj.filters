@@ -588,6 +588,9 @@
     <ClCompile Include="1254_MakingPalindrome.cpp">
       <Filter>BOJ</Filter>
     </ClCompile>
+    <ClCompile Include="NewsClustering.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="BOJ">
