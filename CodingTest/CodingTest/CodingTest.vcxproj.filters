@@ -591,6 +591,7 @@
     <ClCompile Include="NewsClustering.cpp">
       <Filter>Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="BOJ">
@@ -602,5 +603,8 @@
     <Filter Include="NotMyCode">
       <UniqueIdentifier>{3a27139e-cc53-4ae0-b13b-fd972850cc78}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt" />
   </ItemGroup>
 </Project>
