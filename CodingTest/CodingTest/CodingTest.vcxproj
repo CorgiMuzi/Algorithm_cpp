@@ -699,6 +699,7 @@
     <ClCompile Include="9935_ExplosiveString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="BOJ\11505_CalcSectionMult.cpp" />
     <ClCompile Include="NewsClustering.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -710,7 +711,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="input.txt" />
+    <Content Include="input.txt" />
+    <Content Include="x64\Debug\input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="x64\Debug\" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
