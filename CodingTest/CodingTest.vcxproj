@@ -699,7 +699,7 @@
     <ClCompile Include="9935_ExplosiveString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="BOJ\11505_CalcSectionMult.cpp" />
+    <ClCompile Include="BOJ\11689_GCD(n,k)=1.cpp" />
     <ClCompile Include="NewsClustering.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
