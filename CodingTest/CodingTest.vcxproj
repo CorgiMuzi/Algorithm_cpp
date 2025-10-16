@@ -699,16 +699,7 @@
     <ClCompile Include="9935_ExplosiveString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="BOJ\14428_SequenceAndQuery16.cpp">
-	  <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-	</ClCompile>
-    <ClCompile Include="BOJ\11689_GCD(n,k)=1.cpp">
-	  <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-	</ClCompile>
     <ClCompile Include="NewsClustering.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="NotMyCode\9251_LCS.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="1023_BracketString.cpp">
@@ -720,7 +711,9 @@
     <Content Include="x64\Debug\input.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="x64\Debug\" />
+    <Folder Include="BOJ\" />
+    <Folder Include="NotMyCode\" />
+    <Folder Include="Programmers\" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
