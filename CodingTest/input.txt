@@ -1,13 +1,8 @@
-<<<<<<< Updated upstream
+7
+2
+4
+1
+2
+2
 5
-5
-1 2 10
-2 3 10
-3 5 10
-1 4 5
-4 5 5
-1 5
-=======
-ABC ABCDAB ABCDABCDABDE
-ABCDABD
->>>>>>> Stashed changes
+1
