@@ -699,6 +699,8 @@
     <ClCompile Include="9935_ExplosiveString.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="BOJ\1948_CriticalPath.cpp" />
+    <ClCompile Include="BOJ\2150_StronglyConnectedComponent.cpp" />
     <ClCompile Include="NewsClustering.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -711,7 +713,6 @@
     <Content Include="x64\Debug\input.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BOJ\" />
     <Folder Include="NotMyCode\" />
     <Folder Include="Programmers\" />
   </ItemGroup>
